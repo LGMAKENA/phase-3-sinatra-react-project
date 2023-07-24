@@ -1,4 +1,4 @@
-class CreateBills < ActiveRecord::Migration[6.1]
+class CreateTableBills < ActiveRecord::Migration[6.1]
   def change
     create_table :bills do |t| 
       t.datetime :bill_date
@@ -10,4 +10,5 @@ class CreateBills < ActiveRecord::Migration[6.1]
       t.float :balance
     end 
   end
+  
 end
