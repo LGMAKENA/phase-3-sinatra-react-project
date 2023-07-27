@@ -40,8 +40,7 @@ class ApplicationController < Sinatra::Base
     delete '/bills/:id' do
       bill = Bill.find(params[:id])
       bill.destroy
-      bill.to_json
-    end 
+        end 
     
 
 end
