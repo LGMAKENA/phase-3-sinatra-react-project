@@ -1,4 +1,7 @@
-# Phase 3 Project Guidelines
+# Phase 3 Front End Project Link
+[Front End Git-Hub link][https://github.com/LGMAKENA/PHASE-3-FRONT-END]
+
+
 
 ## Learning Goals
 

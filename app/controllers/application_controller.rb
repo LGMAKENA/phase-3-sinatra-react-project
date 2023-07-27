@@ -27,7 +27,7 @@ class ApplicationController < Sinatra::Base
     end
 
     get '/friends/:id' do
-      friend_bills = Bill.find_by(friend_id: params[:id])
+      friend_bills = Bill.where(friend_id: params[:id])
       friend_bills.to_json
     end
 
